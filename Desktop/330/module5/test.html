@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>My JavaScript Example</title>
+
+<script type="text/javascript">
+
+function MsgBox(){
+var text = document.getElementById('textName').value;
+alert(text);
+}
+</script>
+
+</head>
+<body>
+
+<form>
+<input name="text1" type=text id="textName">
+<input name="submit" type=button value="Show Me " id="hello">
+</form>
+
+<script>
+document.getElementById("hello").addEventListener("click",MsgBox, false);
+</script>
+
+</body>
+</html>
